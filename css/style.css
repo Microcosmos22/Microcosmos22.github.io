@@ -430,9 +430,9 @@ a:focus {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  width: 125px;
+  width: 150px;
   min-width: 75px;
-  height: 75px;
+  height: 100px;
   margin-bottom: 15px;
 }
 
@@ -492,12 +492,14 @@ a:focus {
 }
 
 .about_section .row {
+  padding: 50px 0 0 0;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
 .about_section .img-box img {
+  align-items: center;
   max-width: 100%;
 }
 

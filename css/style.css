@@ -929,6 +929,22 @@ form {
   font-family: Arial, sans-serif;
 }
 
+.social-icons a {
+  color: white; /* Make icons white */
+  text-decoration: none; /* Remove underline */
+}
+
+.custom-icon {
+  font-size: 2.5em; /* Make the icons 2.5 times larger */
+  transition: transform 0.3s ease, color 0.3s ease; /* Smooth transitions */
+}
+
+.social-icons a:hover .custom-icon {
+  color: white; /* Ensures icons remain white when hovered */
+  transform: scale(1.1); /* Slightly enlarge the icons on hover */
+}
+
+
 label {
   font-weight: bold;
   margin-bottom: 5px;

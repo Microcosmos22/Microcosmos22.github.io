@@ -944,6 +944,10 @@ form {
   transform: scale(1.1); /* Slightly enlarge the icons on hover */
 }
 
+/* Add more space between the icons */
+.social-icons a:not(:last-child) {
+  margin-right: 15px; /* Adjust this number to control space between icons */
+}
 
 label {
   font-weight: bold;
